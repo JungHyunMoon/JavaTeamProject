@@ -1,11 +1,9 @@
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Scanner;
-import java.util.UUID;
+import java.util.*;
 
 public class Main {
 
     private static Map<String, Reservation> reservations;
+    private static List<Room> rooms;
     public static void main(String[] args) {
         reservations = new HashMap<>();
 
@@ -70,5 +68,9 @@ public class Main {
         // 예약 내역과 parameter 대조
 
         // 일치하면 삭제
+    }
+
+    private static boolean isAvailable(Room room) {
+        return room.isStatus();
     }
 }
