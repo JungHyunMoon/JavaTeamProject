@@ -50,4 +50,25 @@ public class Main {
         // 4. 예약 정보 저장
         String rId = UUID.randomUUID().toString();
     }
+
+    private static Reservation getReservation(String name, String Phone) {
+
+        // getReservations 목록 불러오기
+
+        // 예약 내역과 parameter 대조
+
+        // 일치하면 조회
+
+        // 아직 reservation 없어서 일단 null
+        return null;
+    }
+
+    private static void cancelReservation(int uuid) {
+
+        // getReservations 목록 불러오기
+
+        // 예약 내역과 parameter 대조
+
+        // 일치하면 삭제
+    }
 }
