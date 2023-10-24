@@ -1,4 +1,6 @@
 public class Guest {
+    //gittest
+
     String name;
     String phone;
     int cash;
